@@ -1,0 +1,58 @@
+body
+{
+    background: lightblue;
+}
+.login_page1 , .login_page2
+{
+    background: aliceblue;
+    padding: 15px;
+    float: none;
+    border-radius: 15px;
+    width: 700px;
+}
+#player1_name , #player2_name
+{
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
+#word
+{
+    width: 60px;
+}
+#word_display
+{
+    letter-spacing: 5px;
+}
+#output{
+background: azure;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+width: 700px;
+}
+
+#number1 , #number2{
+    width: 500px; 
+}
+#play_game{
+    font-weight: bolder;
+}
+#play_game:hover{
+   box-shadow: 0 0 20px chartreuse;
+   
+}
+#shadowEffect{
+    color: darkcyan;
+    text-shadow: 0 0 20px cyan;
+    font-family: 'Texturina', serif;
+}
+
+#player1_score , #player2_score{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
